@@ -1,0 +1,25 @@
+/* Dark Mode */
+.dark-mode {
+    margin: 1.2rem 1rem;
+}
+
+/* Topnav */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.topnav a {
+    margin-left: 0.5rem;
+    margin-top: 1.3rem;
+    font-size: 1.2rem;
+
+}
+
+/* Logo */
+.logo {
+    width: 50%;
+}
