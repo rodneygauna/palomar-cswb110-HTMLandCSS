@@ -104,7 +104,11 @@ function setLightMode() {
       messageValue != "" &&
       humanValue == 8
     ) {
-        alert("Your message has been sent!");
+      const bannerDiv = document.querySelector(".banner");
+      const bannerMessage = document.querySelector(".banner-text");
+      bannerDiv.classList.add("success");
+      bannerMessage.innerHTML = "Your message has been sent!";
+      showBanner();
     }
   }
 
