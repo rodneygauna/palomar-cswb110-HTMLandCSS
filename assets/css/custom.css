@@ -23,3 +23,9 @@
 .logo {
     width: 50%;
 }
+
+/* Danger (Error) Text */
+.danger-text {
+    color: #ff0000;
+    font-weight: 200;
+}

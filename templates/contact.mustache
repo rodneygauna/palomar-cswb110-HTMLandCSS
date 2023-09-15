@@ -1,0 +1,65 @@
+<main>
+  <h2>Contact Me</h2>
+  <form>
+    <div class="row">
+      <div class="half column">
+        <label for="firstname">First Name</label>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          placeholder="Firstname"
+          class="full-width"
+        />
+        <span class="danger-text" id="firstname_error"></span>
+      </div>
+      <div class="half column">
+        <label for="lastname">Last Name</label>
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          placeholder="Lastname"
+          class="full-width"
+        />
+        <span class="danger-text" id="lastname_error"></span>
+      </div>
+    </div>
+    <div class="row">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="youremail@domain.com"
+        class="full-width"
+      />
+      <span class="danger-text" id="email_error"></span>
+    </div>
+    <div class="row">
+      <label for="message">Message</label>
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        class="full-width"
+      ></textarea>
+      <span class="danger-text" id="message_error"></span>
+    </div>
+    <div class="row">
+      <!-- Do simple math to ensure the submitter is not a robot -->
+      <label for="human">5 + 3 = ?</label>
+      <input type="text" id="human" name="human" placeholder="Your Answer" />
+      <span class="danger-text" id="math_error"></span>
+    </div>
+    <div class="row">
+      <input
+        type="button"
+        id="submitBtn"
+        value="Submit"
+        onclick="clearValidForm()"
+      />
+    </div>
+  </form>
+</main>
