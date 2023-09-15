@@ -34,6 +34,8 @@ function setLightMode() {
     localStorage.setItem('dark-mode', 'disabled');
 }
 
+  /* Contact Form Functionality
+--------------------------- */
   // Get the information from the form above after the user clicks submit.
   // Then, validate the information and display error messages if needed.
   // If the information is valid, send the information via an email to rodneygauna@gmail
@@ -104,6 +106,9 @@ function setLightMode() {
       messageValue != "" &&
       humanValue == 8
     ) {
+      // Need to figure out how to send an email from a form submission using JavaScript.
+      // Only way to do it now is to use a third party service or API.
+      // Other route is to use PHP, but that would require configuring a PHP server.
       const bannerDiv = document.querySelector(".banner");
       const bannerMessage = document.querySelector(".banner-text");
       bannerDiv.classList.add("success");
