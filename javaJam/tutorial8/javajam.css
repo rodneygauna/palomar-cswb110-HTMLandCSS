@@ -102,6 +102,27 @@ img {
     padding: 0 10px;
 }
 
+table {
+    width: 90%;
+    margin: auto;
+    border-spacing: 0;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #d2b48e;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 10px;
+}
+
+td:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+
 #wrapper {
     width: 80%;
     margin-right: auto;
