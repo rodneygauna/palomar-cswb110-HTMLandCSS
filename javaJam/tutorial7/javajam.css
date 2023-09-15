@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcebb6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url(./images/background.gif);
+}
+
+header,
+nav,
+main,
+footer {
+    display: block;
+}
+
+header {
+    background-color: #d2b48c;
+    height: 150px;
+    background-image: url(./images/javajamlogo.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+h4 {
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: solid 2px #221811;
+    overflow: auto;
+}
+
+nav {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #fef6c2;
+}
+
+nav a:visited {
+    color: #d2b48c;
+}
+
+nav a:hover {
+    color: #cc9933;
+}
+
+main {
+    padding: 0 0 2em 0;
+    display: block;
+    margin-left: 200px;
+    background-color: #fef6c2;
+}
+
+
+main h2,
+main h3,
+main h4,
+main p,
+main div,
+main ul,
+main dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+
+footer {
+    background-color: #d2b48c;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+}
+
+img {
+    padding: 0 10px;
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 5px 5px #1e1e1e;
+}
+
+#heroroad {
+    background-image: url(./images/heroroad.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#heromugs {
+    background-image: url(./images/heromugs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url(./images/heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+.details {
+    padding: 0 20%;
+    overflow: auto;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
