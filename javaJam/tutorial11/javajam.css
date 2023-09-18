@@ -141,6 +141,11 @@ form textarea {
     margin-bottom: 1em;
 }
 
+audio {
+    display: block;
+    margin-top: 1em;
+}
+
 #wrapper {
     width: 80%;
     margin-right: auto;
