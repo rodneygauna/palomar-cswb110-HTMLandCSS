@@ -123,6 +123,24 @@ td:first-child {
     font-weight: bold;
 }
 
+form {
+    padding: 2em;
+}
+
+form label {
+    display: block;
+    float: left;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
 #wrapper {
     width: 80%;
     margin-right: auto;
@@ -135,19 +153,19 @@ td:first-child {
 
 #heroroad {
     background-image: url(./images/heroroad.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
     height: 250px;
 }
 
 #heromugs {
     background-image: url(./images/heromugs.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
     height: 250px;
 }
 
 #heroguitar {
     background-image: url(./images/heroguitar.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
     height: 250px;
 }
 
@@ -157,6 +175,16 @@ td:first-child {
 
 #desktop {
     display: inline;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
+
+#herojobs {
+    background-image: url(./images/herojobs.jpg);
+    background-size: 100% 100%;
+    height: 250px;
 }
 
 .details {
@@ -227,7 +255,8 @@ td:first-child {
 
     #heroroad,
     #heromugs,
-    #heroguitar {
+    #heroguitar,
+    #herojobs {
         margin: 0;
         padding: 0;
     }
@@ -276,7 +305,8 @@ td:first-child {
 
     #heroroad,
     #heromugs,
-    #heroguitar {
+    #heroguitar,
+    #herojobs {
         background-image: none;
         height: auto;
     }
