@@ -138,4 +138,4 @@ function clearErrors() {
   function clearValidForm() {
     clearErrors();
     validateForm();
-  }
+}
