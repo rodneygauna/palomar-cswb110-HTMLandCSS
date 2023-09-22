@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" modified="2023-09-22T16:16:03.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="u4BWuKKLd8dzMNJ-hdxO" version="21.8.0" type="device">
+  <diagram name="Page-1" id="5faVR0xYBpxb2PgR3xPy">
+    <mxGraphModel dx="768" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eYTLwFV2vtWC__0FgIki-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eYTLwFV2vtWC__0FgIki-1" target="eYTLwFV2vtWC__0FgIki-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="610" />
+              <mxPoint x="260" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eYTLwFV2vtWC__0FgIki-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eYTLwFV2vtWC__0FgIki-1" target="eYTLwFV2vtWC__0FgIki-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eYTLwFV2vtWC__0FgIki-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eYTLwFV2vtWC__0FgIki-1" target="eYTLwFV2vtWC__0FgIki-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="610" />
+              <mxPoint x="540" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eYTLwFV2vtWC__0FgIki-1" value="Home" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eYTLwFV2vtWC__0FgIki-6" value="Menu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eYTLwFV2vtWC__0FgIki-9" value="Music" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eYTLwFV2vtWC__0FgIki-10" value="Jobs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
