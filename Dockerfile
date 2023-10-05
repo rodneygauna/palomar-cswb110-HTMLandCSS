@@ -13,4 +13,4 @@ EXPOSE 80
 # Command to build the image
 # docker build -t cswb110 .
 #Command to run the container
-# docker -d -p 80:80 cswb110
+# docker run -d -p 80:80 cswb110
