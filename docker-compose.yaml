@@ -1,0 +1,11 @@
+# docker-compose
+version: '3'
+
+services:
+  website:
+    image: nginx:mainline-alpine-slim
+    ports:
+      - "80:80"
+    # copy files from host to container on /usr/share/nginx/html
+    volumes:
+      - .:/usr/share/nginx/html
